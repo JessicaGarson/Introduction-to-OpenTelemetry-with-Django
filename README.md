@@ -1,1 +1,1 @@
-# Introduction-to-OpenTelemetry-with-Django
+# Introduction to OpenTelemetry with Django
