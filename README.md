@@ -51,6 +51,7 @@ If everything is working as intended, you should be able to see observablity dat
 - [OpenTelemetry collectors](https://opentelemetry.io/docs/collector/) 
 - [OpenTelemetry SDKs](https://opentelemetry.io/docs/languages/)
 - [Django Instrumentation](https://opentelemetry-python.readthedocs.io/en/latest/examples/django/README.html)
+- [Introducing Elastic Distribution for OpenTelemetry Python](https://www.elastic.co/observability-labs/blog/elastic-opentelemetry-distribution-python)
 - [elastic-otel-python](https://github.com/elastic/elastic-otel-python)
 - [Elastic OpenTelemetry integration](https://www.elastic.co/guide/en/observability/current/apm-open-telemetry.html)
 - [Elastic Observability Fundamentals](https://www.elastic.co/training/observability-fundamentals)
