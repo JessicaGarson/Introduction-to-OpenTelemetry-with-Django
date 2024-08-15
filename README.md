@@ -29,7 +29,7 @@ Before you can use ethier, you will need to do the following:
   pip install -r requirements.txt
   ```
 
-Move the `env.example` into the root of whichever example you want to run. Be sure to update it with your own credentials and save it as `.env`. 
+- Move the `env.example` into the root of whichever example you want to run. Be sure to update it with your own credentials and save it as `.env`. 
 
 ### Running the example application
 
