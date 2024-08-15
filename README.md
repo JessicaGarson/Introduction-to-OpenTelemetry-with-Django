@@ -7,7 +7,7 @@ OpenTelemetry (OTel) is a vendor-neutral, open-source framework for observabilit
 
 ### Manual instrumention 
 
-## Docs 
+## Resources 
 - [OpenTelemetry docs](https://opentelemetry.io/)
 - [OpenTelemetry collectors](https://opentelemetry.io/docs/collector/) 
 - [OpenTelemetry SDKs](https://opentelemetry.io/docs/languages/)
