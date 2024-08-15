@@ -2,10 +2,42 @@
 OpenTelemetry (OTel) is a vendor-neutral, open-source framework for observability designed to be compatible with any backend system. It offers standardized APIs, libraries, and tools for gathering telemetry data, including metrics, logs, and traces. This presentation serves as an introduction to using OpenTelemetry with Django.
 
 ## Examples
+This repository contains two example applications, one showing automatic instrumentation and the other manual instrumentation using OpenTelemetry, sending the results into Elastic. Both applications are simple to-do list applications made with Django.
 
-### Automatic intrumention
+### Getting started
+Before you can use ethier, you will need to do the following:
 
-### Manual instrumention 
+- Create a virtual environment.
+
+  Mac:
+  
+  ```
+  python -m venv venv
+  source venc/bin/activate
+  ```
+
+  Windows:
+
+  ```
+  python -m venv venv
+  .\venv\Scripts\activate
+  ```
+
+- Install the required packages:
+
+  ``` 
+  pip install -r requirements.txt
+  ```
+
+Move the `env.example` into the root of whichever example you want to run. Be sure to update it with your own credentials and save it as `.env`. 
+
+### Running the example application
+
+You can use the following command to run each example application:
+
+```
+python manage.py runserver
+```
 
 ## Resources 
 - [OpenTelemetry docs](https://opentelemetry.io/)
