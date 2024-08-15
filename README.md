@@ -5,7 +5,7 @@ OpenTelemetry (OTel) is a vendor-neutral, open-source framework for observabilit
 This repository contains two example applications, one showing automatic instrumentation and the other manual instrumentation using OpenTelemetry, sending the results into Elastic. Both applications are simple to-do list applications made with Django.
 
 ### Getting started
-Before you can use ethier, you will need to do the following:
+Before you can use either, you will need to do the following:
 
 - Create a virtual environment.
 
@@ -39,6 +39,9 @@ You can use the following command to run each example application:
 python manage.py runserver
 ```
 
+### Viewing the results in Elastic
+If everything is working as intended, you should be able to see observablity data in the Services section in Elastic APM.
+
 ## Resources 
 - [OpenTelemetry docs](https://opentelemetry.io/)
 - [OpenTelemetry collectors](https://opentelemetry.io/docs/collector/) 
@@ -47,6 +50,7 @@ python manage.py runserver
 - [elastic-otel-python](https://github.com/elastic/elastic-otel-python)
 - [Elastic OpenTelemetry integration](https://www.elastic.co/guide/en/observability/current/apm-open-telemetry.html)
 - [Elastic Observability Fundamentals](https://www.elastic.co/training/observability-fundamentals)
+- [Automatic instrumentation with OpenTelemetry for Python applications](https://www.elastic.co/observability-labs/blog/auto-instrumentation-python-applications-opentelemetry)
 
 ### Other talks
 - [How To Monitor and Troubleshoot Applications using OpenTelemetry](https://www.youtube.com/watch?v=oTzIieqwMW0)
