@@ -35,7 +35,7 @@ Before you can use either, you will need to do the following:
 
 - Move the `env.example` into the root of whichever example you want to run. Be sure to update it with your own credentials and save it as `.env`. 
 
-### Running the example application
+### Running the example applications
 
 You can use the following command to run each example application:
 
@@ -45,6 +45,9 @@ python manage.py runserver
 
 ### Viewing the results in Elastic
 If everything is working as intended, you should be able to see observablity data in the Services section in Elastic APM.
+
+### Example collector
+[`example_collector.yaml`](example_collector.yaml) example of a collector that sends data to Elastic.
 
 ## Resources 
 - [OpenTelemetry docs](https://opentelemetry.io/)
