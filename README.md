@@ -60,7 +60,7 @@ Before you can use either, you will need to do the following:
   
   ```
   python -m venv venv
-  source venc/bin/activate
+  source venv/bin/activate
   ```
 
   Windows:
